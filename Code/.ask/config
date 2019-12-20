@@ -1,0 +1,19 @@
+{
+  "deploy_settings": {
+    "laynr": {
+      "skill_id": "amzn1.echo-sdk-ams.app.71a193da-99a6-4b60-9b0c-75b361471657",
+      "was_cloned": true,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:us-east-1:699296914020:function:digitsOfPi"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
